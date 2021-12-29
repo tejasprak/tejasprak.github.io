@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"  Hey, I'm Tejas Prakash!"}},"allMarkdownRemark":{"nodes":[{"excerpt":"wip","fields":{"slug":"/post2/"},"frontmatter":{"date":"December 22, 2021","title":"Distributed Power Rating vs WEPA","description":"analysis of existing NFL team power rating statistics, as well as the methodology between nfl-weighted-elo"}},{"excerpt":"This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"December 01, 2021","title":"Calculating Regularized Adjusted Plus-Minus","description":"a brief summary of the linear algebra behind the calculation of RAPM"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383"]}

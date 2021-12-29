@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/post2/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"  Hey, I'm Tejas Prakash!"}},"markdownRemark":{"id":"7f106e10-d422-5c96-9901-2a06c2792bbf","excerpt":"wip","html":"<p>wip</p>","frontmatter":{"title":"Distributed Power Rating vs WEPA","date":"December 22, 2021","description":"analysis of existing NFL team power rating statistics, as well as the methodology between nfl-weighted-elo"}},"previous":{"fields":{"slug":"/hello-world/"},"frontmatter":{"title":"Calculating Regularized Adjusted Plus-Minus"}},"next":null},"pageContext":{"id":"7f106e10-d422-5c96-9901-2a06c2792bbf","previousPostId":"3f781867-c6c7-591a-b9ab-335a80a9066a","nextPostId":null}},
+    "staticQueryHashes": ["2841359383"]}
