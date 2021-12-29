@@ -1,55 +1,30 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+/* Biography component */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
-  `)
-
-  // Set these values by editing "siteMetadata" in gatsby-config.js
-  const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
-
   return (
     <div className="bio">
       <StaticImage
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        src="../images/profile-pic.jpeg"
+        width={160}
+        height={160}
         quality={95}
         alt="Profile picture"
       />
-      {author?.name && (
+      { (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          i'm a student and software engineer who loves to code and build <br></br>
+          studying cs, math, and statistics at <strong>purdue</strong> (graduating dec '22) <br></br>
+          currently working on conversational AI apps at <strong>csg</strong><br></br>
+          incoming sde intern @ <strong>amazon</strong> (summer '22) <br></br>
+          interested in sports analytics, computer vision, trivia, and speedcubing
         </p>
+       
       )}
     </div>
   )

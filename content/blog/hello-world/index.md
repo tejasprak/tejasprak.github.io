@@ -1,7 +1,7 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Calculating Regularized Adjusted Plus-Minus
+date: "2021-12-01T22:12:03.284Z"
+description: "a brief summary of the linear algebra behind the calculation of RAPM"
 ---
 
 This is my first post on my new fake blog! How exciting!
